@@ -185,3 +185,36 @@ h4 {
     font-family: $font-paragraph;
     }
 }
+
+/*Portfolio*/
+
+.portfolio {
+    background: rgb(237, 237, 237);
+    img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    }
+}
+
+.card {
+    p {
+        font-family: $font-paragraph;
+        color: $color-grey;
+        font-style: italic;
+        font-size: 18px;
+        margin-top: -40px;
+        padding-bottom: 20px;
+    }
+    /* Add shadows to create the "card" effect */ 
+    transition: 0.3s;
+    max-width: 300px;
+    display: inline-block;
+    margin: 20px;
+    background: white;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
