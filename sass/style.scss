@@ -164,3 +164,24 @@ h4 {
    transition: $transition;
    color: $color-light;
 }  
+
+/* Services */
+
+.services {
+    i {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $color-gold;
+    border-radius: 50%;
+    margin: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $color-gold;
+    }
+    p {
+    color: $color-grey;
+    font-family: $font-paragraph;
+    }
+}
