@@ -128,3 +128,39 @@ h4 {
     font-size: 60px;
     margin-top: -20px;
 }
+/* btn */
+
+.btn {
+    display: inline-block;
+    min-width: 220px;
+    margin: 60px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    /*border-width: 2px;
+    border-style: solid;*/
+    transition: $transition;
+}
+
+.btn-one {
+    border-color: $color-light;
+    color: $color-light;
+    background-image: linear-gradient(90deg, $color-gold 50%, transparent 50%);
+    background-position: 0 100%;
+    background-size: 300%;
+}
+
+.btn:hover {
+    background-position: 100% 0;
+    background-color: $color-main;
+}
+   
+.btn-one:hover {
+   background-image: linear-gradient(45deg, $color-gold, 50%, transparent 50%);
+   transition: $transition;
+   color: $color-light;
+}  
