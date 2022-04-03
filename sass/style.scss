@@ -95,3 +95,36 @@ h4 {
             float: left;
             margin-left: 50px;
         } 
+
+        /* Splash */
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url('https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.page-title {
+    color: $color-light;
+    font-size: 40px;
+    font-family: $font-italic;
+    font-style: italic;
+    font-weight: 200;
+    position: relative;
+}
+
+.page-subtitle {
+    color: $color-light;
+    font-size: 60px;
+    margin-top: -20px;
+}
