@@ -1,0 +1,61 @@
+$color-main: #ff5e57;
+$color-light: #fff;
+$color-dark: #242424;
+$color-gold: #edc842;
+$color-grey: #747474;
+$font-text: 'Montserrat';
+$font-header: 'Abel', sans-serif;
+$font-italic: 'Droid Serif', serif;
+$font-paragraph: 'SeRoboto Slab', serif;
+$transition: all 1s;
+
+/* Global */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: $color-light;
+    font-size: 16px;
+    line-height: 1.7; 
+    font-family: $font-text;
+}
+.container {
+    max-width: 1140px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+
+.section-title {
+    position: relative;
+    font-family: $font-text;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0 0 60px 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: -20px;
+}
+
+h3 {
+    font-family: $font-italic;
+    font-weight: 100;
+    font-style: italic;
+    color: $color-grey;
+    margin-bottom: 60px;
+}
+h4 {
+    font-size: 20px;
+    
+}
