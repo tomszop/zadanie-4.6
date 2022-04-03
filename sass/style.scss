@@ -59,3 +59,39 @@ h4 {
     font-size: 20px;
     
 }
+
+/* Navigation */
+
+.navigation {
+    background: inherit;
+    padding: 30px 0;
+    color: $color-light;
+        ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        float: right;
+            ul {
+                li {
+                    display: block;
+                    margin: 12px;
+                }
+            }
+        }
+        li {
+            display: inline-block;
+            margin-right: 36px;
+            position: relative;
+                a {
+                    text-decoration: none;
+                    color: $color-light;
+                }
+            }
+        }
+        .navbar-brand {
+          font-family: 'Wisdom Script', sans-serif;
+            color: $color-gold;
+            font-size: 35px;
+            float: left;
+            margin-left: 50px;
+        } 
